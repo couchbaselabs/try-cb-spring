@@ -30,6 +30,6 @@ public class Index {
         return "<h1> Java Travel Sample API </h1>"
                 + "A sample API for getting started with Couchbase Server and the Java SDK." + "<ul>"
                 + "<li> <a href = \"/apidocs\"> Learn the API with Swagger, interactively </a>"
-                + "<li> <a href = \"https://github.com/couchbaselabs/try-cb-sdc\"> GitHub </a>" + "</ul>";
+                + "<li> <a href = \"https://github.com/couchbaselabs/try-cb-spring\"> GitHub </a>" + "</ul>";
     }
 }

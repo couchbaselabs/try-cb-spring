@@ -18,4 +18,4 @@ RUN mvn clean install
 EXPOSE 8080
 
 # Set the entrypoint
-ENTRYPOINT ["./wait-for-couchbase.sh", "java", "-jar", "target/try-cb-sdc.jar"]
+ENTRYPOINT ["./wait-for-couchbase.sh", "java", "-jar", "target/try-cb-spring.jar"]

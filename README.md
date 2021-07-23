@@ -17,9 +17,9 @@ for applicable air flight routes from a previously populated database. An additi
 
 ## Prerequisites
 
-To download the application you can either download [the archive](https://github.com/couchbaselabs/try-cb-sdc/archive/master.zip) or clone the repository:
+To download the application you can either download [the archive](https://github.com/couchbaselabs/try-cb-spring/archive/master.zip) or clone the repository:
 
-    git clone https://github.com/couchbaselabs/try-cb-sdc.git
+    git clone https://github.com/couchbaselabs/try-cb-spring.git
 
 <!-- If you want to run the application from your IDE rather than from the command line you also need your IDE set up to
 work with maven-based projects. We recommend running IntelliJ IDEA, but Eclipse or Netbeans will also work. -->
@@ -83,7 +83,7 @@ try-cb-api  |   '  |____| .__|_| |_|_| |_\__, | / / / /
 try-cb-api  |  =========|_|==============|___/=/_/_/_/
 try-cb-api  |  :: Spring Boot ::                (v2.5.0)
 try-cb-api  | 
-try-cb-api  | 2021-06-04 14:47:12.896  INFO 1 --- [           main] trycb.Application                        : Starting Application v2.3.0 using Java 1.8.0_292 on e7a5966cfaad with PID 1 (/app/target/try-cb-sdc.jar started by root in /app)
+try-cb-api  | 2021-06-04 14:47:12.896  INFO 1 --- [           main] trycb.Application                        : Starting Application v2.3.0 using Java 1.8.0_292 on e7a5966cfaad with PID 1 (/app/target/try-cb-spring.jar started by root in /app)
 try-cb-api  | 2021-06-04 14:47:12.908  INFO 1 --- [           main] trycb.Application                        : No active profile set, falling back to default profiles: default
 try-cb-api  | 2021-06-04 14:47:17.271  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
 try-cb-api  | 2021-06-04 14:47:17.335  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]

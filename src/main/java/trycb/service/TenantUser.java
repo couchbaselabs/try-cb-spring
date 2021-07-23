@@ -135,7 +135,7 @@ public class TenantUser {
     for (Object newFlight : newFlights) {
       checkFlight(newFlight);
       JsonObject t = ((JsonObject) newFlight);
-      t.put("bookedon", "try-cb-sdc");
+      t.put("bookedon", "try-cb-spring");
       Booking booking = new Booking(UUID.randomUUID().toString());
       booking.name = t.getString("name");
       booking.sourceairport = t.getString("sourceairport");

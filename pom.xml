@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.couchbase.example</groupId>
-    <artifactId>try-cb-sdc</artifactId>
+    <artifactId>try-cb-spring</artifactId>
     <version>2.3.0</version>
 
     <parent>
@@ -104,7 +104,7 @@
 
     <!-- spring boot maven plugin for command line utils -->
     <build>
-        <finalName>try-cb-sdc</finalName>
+        <finalName>try-cb-spring</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -115,7 +115,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.4.11</version>
                 <configuration>
-                    <imageName>trycb/sdc</imageName>
+                    <imageName>trycb/spring</imageName>
                     <dockerDirectory>src/main/docker</dockerDirectory>
                     <buildArgs>
                         <finalName>${project.build.finalName}.jar</finalName>
