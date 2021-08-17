@@ -1,9 +1,5 @@
 # Couchbase Spring Data Couchbase Travel-Sample Application
 
-NOTE: This requires Spring Data Couchbase with Collection Support which is currently available
-only in the branch datacouch_963_scopes_and_collections_for_repositories. The sample will only
-work if that is cloned and installed locally. 
-
 This is a sample application for getting started with [Couchbase Server] and [Spring Data Couchbase].
 The application runs a single page web UI for demonstrating SQL for Documents (N1QL), Sub-document requests and Full Text Search (FTS) querying capabilities.
 It uses Couchbase Server together with the [Spring Boot] web framework for [Java], [Swagger] for API documentation, [Vue] and [Bootstrap].
@@ -171,9 +167,6 @@ Please ensure that you have the following before proceeding.
 Install the dependencies:
 
     mvn clean install
-
-Note that `spring-boot-devtools` is installed as a dependency, so you can run the server with
-the benefit of automatic restarting as you make changes.
 
 The first time you run against a new database image, you may want to use the provided
 `wait-for-couchbase.sh` wrapper to ensure that all indexes are created.

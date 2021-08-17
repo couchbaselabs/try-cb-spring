@@ -10,8 +10,6 @@ services:
       - CB_USER
       - CB_PSWD
     command: --storage.host=${CB_HOST} --storage.username=${CB_USER} --storage.password=${CB_PSWD}
-    volumes:
-      - .:/app
     container_name: try-cb-api-mm
 
   frontend:
@@ -21,7 +19,7 @@ services:
     container_name: try-cb-fe-mm
 
   db:
-    image: couchbase/server-sandbox:7.0.0-beta
+    image: couchbase/server-sandbox:7.0.0
     ports:
       - "8091-8095:8091-8095"
       - "9102:9102"
@@ -29,4 +27,4 @@ services:
     expose:
       - "8091"
       - "8094"
-    container_name: couchbase-sandbox-7.0.0-beta-mm
+    container_name: couchbase-sandbox-7.0.0-mm
