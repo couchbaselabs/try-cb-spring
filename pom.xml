@@ -36,7 +36,7 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-couchbase</artifactId>
-            <version>4.3.0-M2</version>
+            <version>4.3.0-M3</version>
         </dependency>
         <!-- Gson to json-stringify objects -->
         <dependency>
@@ -88,16 +88,19 @@
 
     <!-- for couchbase prereleases, use the couchbase repo -->
     <repositories>
+
         <repository>
             <id>couchbase</id>
             <name>Couchbase Preview Repository</name>
             <url>http://files.couchbase.com/maven2</url>
         </repository>
+
         <repository>
             <id>spring-libs-milestone</id>
             <name>Spring Milestone Repository</name>
             <url>https://repo.spring.io/libs-milestone</url>
         </repository>
+
     </repositories>
 
     <!-- spring boot maven plugin for command line utils -->
