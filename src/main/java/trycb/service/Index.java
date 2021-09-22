@@ -27,8 +27,8 @@ public class Index {
      * Returns the index page.
      */
     public static String getInfo() {
-        return "<h1> Java Travel Sample API </h1>"
-                + "A sample API for getting started with Couchbase Server and the Java SDK." + "<ul>"
+        return "<h1> Spring Data Travel Sample API </h1>"
+                + "A sample API for getting started with Couchbase Server and Spring Data Couchbase." + "<ul>"
                 + "<li> <a href = \"/apidocs\"> Learn the API with Swagger, interactively </a>"
                 + "<li> <a href = \"https://github.com/couchbaselabs/try-cb-spring\"> GitHub </a>" + "</ul>";
     }
